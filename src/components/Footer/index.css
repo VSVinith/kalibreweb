@@ -1,0 +1,26 @@
+.footer-container{
+    background-image: url(../../assets/images/footer-background.avif);
+    color: beige;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+}
+
+.links{
+    color: beige;
+    text-decoration: none;
+}
+
+.links:hover{
+    color:rgb(93, 102, 150) 
+}
+
+@media all and (max-width:768px){
+    .footer-container{
+        flex-direction: column;
+    }
+    .address-details{
+        margin-top: 20px;
+    }
+}

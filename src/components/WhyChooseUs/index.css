@@ -1,0 +1,56 @@
+.why-choose-us-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.block-1{
+    width: 27vw;
+    padding: 10px;
+}
+
+.why-choose-us-text{
+    color: #0246c4;
+}
+
+.why-choose-image{
+    width:25vw;
+    border-radius: 10px;
+}
+
+.images-container{
+
+}
+.solutions-container{
+    text-align: start;
+    /* width: 40vw; */
+}
+.solutions-list{
+    list-style: circle;
+}
+.solution-image{
+    height: 30vh;
+    margin: 10px;
+}
+
+.mobile-why-choose-us{
+    display: none;
+}
+
+@media all and (max-width:768px) {
+    .web-why-choose-us{
+        display: none;
+    }
+    .mobile-why-choose-us{
+        display: block;
+    }
+    .block-1{
+        width: 50vw;
+    }
+    .mobile-block-height{
+        height: 30vh;
+    }
+    .solution-image{
+        height: 20vh;
+        margin: 10px;
+    }
+}

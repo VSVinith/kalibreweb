@@ -1,0 +1,28 @@
+.carousel-image{
+    color: beige;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;
+    height: 93vh;
+}
+
+.first-carousel{
+    background-image: linear-gradient(rgba(50, 50, 65, 0.6), rgba(50, 50, 65, 0.6)), url("../../assets/images/carousel-1.jpg");
+}
+.second-carousel{
+    background-image:  url("../../assets/images/worldmap.jpg");
+}
+.third-carousel{
+    background-image:  linear-gradient(rgba(50, 50, 65, 0.6), rgba(50, 50, 65, 0.6)), url("../../assets/images/vision.jpg");
+}
+
+.stat-block{
+    width: 20vw;
+    height: 20vh; 
+    color: black
+}
+.stat-block-1{
+    background-color: rgb(56, 55, 55);
+}
+.stat-block-2{
+    background-color: rgb(62, 82, 100);
+}

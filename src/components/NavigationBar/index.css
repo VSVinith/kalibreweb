@@ -1,0 +1,17 @@
+.brand{
+    color: beige;
+    font-weight: bolder;
+}
+
+.navbar-background{
+    background-image: url(../../assets/images/footer-background.avif);
+    background-size: cover;
+}
+
+.brand:hover{
+    color:rgb(93, 102, 150) 
+}
+
+.selected{
+    text-decoration: underline;
+}
